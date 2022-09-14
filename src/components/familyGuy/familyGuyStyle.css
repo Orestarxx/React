@@ -1,0 +1,16 @@
+.familyDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.family{
+    width: 15%;
+    min-height: 300px;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+}

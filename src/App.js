@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import './components/familyGuy/familyGuyStyle.css'
+import './components/fetches/styleRick.css'
 import './App.css';
+import Simpsons from "./components/familySimpsons/familySimpsons";
+import Rickworld from "./components/fetches/fetch";
+import FamilyGuys from "./components/familyGuy/familyGuy";
+
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+  return (<div>
+
+          <Simpsons/>
+          <Rickworld/>
+          <FamilyGuys/>
+
+      </div>
+
   );
 }
 
