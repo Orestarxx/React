@@ -11,12 +11,15 @@ export default function SpaceX() {
     }
 
     useEffect(() => {
-        // fetch('https://api.spacexdata.com/v3/launches/')
-        //     .then(value => value.json())
-            launcher().then(value =>setSpaceX(value)
+
+            launcher().then(value =>{
+
+                    let result = value.filter(val => val.launch_year !== '2020')
+                    setSpaceX(result);
+            }
+
             )
-                // let result = value.filter(val => val.launch_year !== '2020')
-                // setSpaceX(result)
+
 
 
 
