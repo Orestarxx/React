@@ -26,7 +26,7 @@ export default function SpaceX() {
 
             // })
     }, [])
-    return (<div>
+    return (<div className='pocket'>
         <div id='e'></div>
         <div className='details'>{details}</div>
         {spaceX.map((space, index) => (<SpaceBuild item={space} key={space.index} lift={lift}/>))}

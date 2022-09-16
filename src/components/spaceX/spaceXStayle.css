@@ -1,6 +1,9 @@
 html, body{
     scroll-behavior: smooth;
 }
+.pocket{
+
+}
 
 .launcher{
     width: 400px;
