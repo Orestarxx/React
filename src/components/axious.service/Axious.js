@@ -1,7 +1,8 @@
 import {useState} from "react";
-import SpaceBuild from "./SpaceXBuild";
+import SpaceBuild from "../spaceX/SpaceXBuild";
 
 export default function SpaceX (){
+
     let [spaceX,setSpaceX] = useState([])
     fetch('https://api.spacexdata.com/v3/launches/')
         .then(value => value.json())
