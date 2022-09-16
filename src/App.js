@@ -1,14 +1,15 @@
 import './App.css';
-import SpaceX from "./components/axious.service/Axious";
+import SpaceX from "./components/spaceX/SpaceX";
+import './components/spaceX/spaceXStayle.css'
 
 
 
 
 function App() {
 
-  return (<div>
+  return (<div className='main'>
 
- <SpaceX/>
+      <SpaceX/>
 
       </div>
 

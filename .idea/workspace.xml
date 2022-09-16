@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="gg)">
+      <change afterPath="$PROJECT_DIR$/src/components/axious.service/axiousS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/spaceX/SpaceX.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/axious.service/Axious.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/axious.service/Axious.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/axious.service/Axious.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/spaceX/SpaceXBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spaceX/SpaceXBuild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/spaceX/spaceXStayle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spaceX/spaceXStayle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +56,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\react_working\src\components\spaceX" />
       <recent name="C:\Users\Admin\IdeaProjects\react_working\src\components\familySimpsons" />
     </key>
   </component>
@@ -65,6 +70,7 @@
       <updated>1663098120764</updated>
       <workItem from="1663098123541" duration="11155000" />
       <workItem from="1663147257068" duration="14434000" />
+      <workItem from="1663327342393" duration="7840000" />
     </task>
     <task id="LOCAL-00001" summary="comit">
       <created>1663160537157</created>
