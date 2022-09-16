@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="gg)">
-      <change afterPath="$PROJECT_DIR$/src/components/axious.service/Axious.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/spaceX/SpaceXBuild.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/spaceX/spaceXStayle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/axious.service/Axious.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/axious.service/Axious.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lesson1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
