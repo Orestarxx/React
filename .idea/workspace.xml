@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c26ddd9-08ed-4ab1-ab58-419a921e21d2" name="Changes" comment="gg)">
-      <change afterPath="$PROJECT_DIR$/src/components/usersWork/Users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/usersWork/UsersBuild.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/usersWork/userStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/axious.fetch.service/axious.fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/axious.fetch.service/axious.fetch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/spaceX/SpaceX.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spaceX/SpaceX.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/spaceX/SpaceXBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spaceX/SpaceXBuild.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/spaceX/spaceXStayle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spaceX/spaceXStayle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/usersWork/userStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/usersWork/userStyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +67,7 @@
       <workItem from="1663147257068" duration="14434000" />
       <workItem from="1663327342393" duration="8126000" />
       <workItem from="1663351201431" duration="2550000" />
-      <workItem from="1663412381566" duration="19087000" />
+      <workItem from="1663412381566" duration="19554000" />
     </task>
     <task id="LOCAL-00001" summary="comit">
       <created>1663160537157</created>
@@ -98,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663374422186</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="gg)">
+      <created>1663445208804</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663445208804</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
