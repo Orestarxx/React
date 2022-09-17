@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import SpaceBuild from "./SpaceXBuild";
-import {launcher} from "../axious.service/axiousS";
+import {launcher} from "../axious.fetch.service/axious.fetch";
 
 export default function SpaceX() {
     let [spaceX, setSpaceX] = useState([])
@@ -26,12 +26,15 @@ export default function SpaceX() {
 
             // })
     }, [])
-    return (<div className='pocket'>
+    return (<div>
         <div id='e'></div>
         <div className='details'>{details}</div>
+        <div className='pocket'>
         {spaceX.map((space, index) => (<SpaceBuild item={space} key={space.index} lift={lift}/>))}
+        </div>
         <div id='up'><a href='#e'><b>Up</b></a></div>
         <div id='down'><a href="#anchor"><b>Down</b></a></div>
         <div id='anchor'></div>
+        <hr/>
     </div>)
 }
