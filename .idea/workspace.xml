@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c26ddd9-08ed-4ab1-ab58-419a921e21d2" name="Changes" comment="gg)">
+      <change afterPath="$PROJECT_DIR$/src/components/usersWork/Users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/usersWork/UsersBuild.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/usersWork/userStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/axious.service/axiousS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/axious.fetch.service/axious.fetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/axious.fetch.service/axious.fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/axious.fetch.service/axious.fetch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/spaceX/SpaceX.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spaceX/SpaceX.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/spaceX/SpaceXBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spaceX/SpaceXBuild.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/spaceX/spaceXStayle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spaceX/spaceXStayle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,21 +42,21 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\IT\\IntelliJ IDEA 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\IT\\IntelliJ IDEA 2022.1.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\IdeaProjects\react_working\src\components\spaceX" />
@@ -61,7 +66,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="" />
+      <changelist id="8c26ddd9-08ed-4ab1-ab58-419a921e21d2" name="Changes" comment="gg)" />
       <created>1663098120764</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -70,6 +75,7 @@
       <workItem from="1663147257068" duration="14434000" />
       <workItem from="1663327342393" duration="8126000" />
       <workItem from="1663351201431" duration="2550000" />
+      <workItem from="1663412381566" duration="19087000" />
     </task>
     <task id="LOCAL-00001" summary="comit">
       <created>1663160537157</created>
@@ -85,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663347545993</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gg)">
+      <created>1663374422186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663374422186</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
