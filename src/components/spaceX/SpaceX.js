@@ -29,7 +29,7 @@ export default function SpaceX() {
             {spaceX.map((space, index) => (<SpaceBuild item={space} key={index} lift={lift}/>))}
         </div>
         <div id='up'><a href='#e'><b>Up</b></a></div>
-        <div id='down'><a href="#anchor"><b>Down</b></a></div>
+        <div id='down'><a href="#anchor"><b>Task2</b></a></div>
         <div id='anchor'></div>
         <hr/>
     </div>)

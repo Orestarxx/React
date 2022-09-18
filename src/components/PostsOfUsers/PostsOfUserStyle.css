@@ -1,22 +1,25 @@
-
-#wrap{
-    height: 100px ;
-    width: 100%;
-    border: #28282d 1px solid;
-    align-items: center;
+#posts{
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+     align-items: center;
+    margin-top: 20px;
     background: rosybrown;
 }
-#userWrap{
-   display: flex;
+#post{
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+#use{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
-#holder{
+#usersHolder{
     width: 200px;
     height: 100px;
 
@@ -27,11 +30,6 @@
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
-
-
-
-
-
 .usersButton {
     align-items: center;
     background-color: #fee6e3;

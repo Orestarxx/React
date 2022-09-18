@@ -14,6 +14,13 @@ let use = axios.create({
 const getUsers = () => {
     return use()
 }
+const gotUsers = () =>{
+    return use()
+}
 
-export {getUsers, launcher}
+const getPosts = (id) =>{
+    return use('/'+id+'/posts')
+}
+
+export {getUsers, launcher,gotUsers,getPosts}
 

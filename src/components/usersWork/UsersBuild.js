@@ -8,7 +8,7 @@ export default function User(props) {
 
 
         }
-        }>Details
+        }><b>Details</b>
         </button>
     </div>)
 
