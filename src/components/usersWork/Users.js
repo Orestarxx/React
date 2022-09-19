@@ -4,7 +4,6 @@ import User from "./UsersBuild";
 import {getUsers} from "../axious.fetch.service/axious.fetch";
 
 
-
 function Users() {
     let [users, setUsers] = useState([])
     let [details, setDetails] = useState([])
@@ -18,7 +17,7 @@ function Users() {
 
 
     useEffect(() => {
-           getUsers().then(value => setUsers(value.data))
+        getUsers().then(value => setUsers(value.data))
 
     }, [])
 

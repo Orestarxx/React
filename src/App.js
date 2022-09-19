@@ -1,10 +1,10 @@
 import './App.css';
 import './components/spaceX/spaceXStayle.css'
 import './components/usersWork/userStyle.css'
-import './components/PostsOfUsers/PostsOfUserStyle.css'
+import './components/postsOfUsers/PostsOfUserStyle.css'
 import SpaceX from "./components/spaceX/SpaceX";
 import Users from "./components/usersWork/Users";
-import Posts from "./components/PostsOfUsers/PostOfUser";
+import Posts from "./components/postsOfUsers/PostOfUser";
 
 
 
