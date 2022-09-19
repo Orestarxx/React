@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c26ddd9-08ed-4ab1-ab58-419a921e21d2" name="Changes" comment="done homework2">
+      <change afterPath="$PROJECT_DIR$/src/components/addUsersPosts/DetailsBuild.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/addUsersPosts/UsersPosts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/addUsersPosts/UsersPostsBuild.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/addUsersPosts/styleAdd.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostsOfUsers/PostOfUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postsOfUsers/PostOfUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostsOfUsers/PostsOfUserStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postsOfUsers/PostsOfUserStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostsOfUsers/PostsOfUsersBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/postsOfUsers/PostsOfUsersBuild.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/axious.fetch.service/axious.fetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/axious.fetch.service/axious.fetch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/spaceX/SpaceX.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spaceX/SpaceX.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/spaceX/SpaceXBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/spaceX/SpaceXBuild.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/usersWork/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/usersWork/Users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -78,7 +76,7 @@
       <workItem from="1663412381566" duration="19899000" />
       <workItem from="1663500004335" duration="65000" />
       <workItem from="1663503254724" duration="10211000" />
-      <workItem from="1663584839135" duration="1495000" />
+      <workItem from="1663584839135" duration="9769000" />
     </task>
     <task id="LOCAL-00001" summary="comit">
       <created>1663160537157</created>
@@ -129,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663513474518</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="done homework2">
+      <created>1663588397537</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663588397537</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
