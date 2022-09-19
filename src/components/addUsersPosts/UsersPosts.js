@@ -26,7 +26,9 @@ function UsersPost() {
         <div className='left'>{users.map((user) => <UsersPostsBuild user={user} key={user.id} rightDetails={rightDetails}/>)}</div>
         <div className='right'><ShowDetails userDetails={userDetails} key={userDetails.id} showPosts1={showPosts1}/></div>
         </div>
-        <div id='poster'>{posts.map((post)=>{return(<div>
+        <div id='poster'>{posts.map((post)=>{return(<div id='posters'>
+            <div><b>UserID:</b><span  className='postId'>{post?.userId}</span></div>
+            <div><b>PostID:</b><span className='postId'>{post.id}</span></div>
             <div><b>Post:</b>{post.body} <b>.</b></div>
         </div>)})}</div>
     </div>)
