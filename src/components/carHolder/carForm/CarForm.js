@@ -5,7 +5,7 @@ import { carsService } from "../../services/users.posts.cars.service";
 import { useEffect, useState } from "react";
 
 const CarForm = ({ setCars, carForUpdate, setCarsForUpdate }) => {
-  const { register, handleSubmit, reset, setValue, formState: { errors, isValid } } = useForm({ resolver: joiResolver(carsValidator) })
+  const { register, handleSubmit, reset, setValue, } = useForm({ resolver: joiResolver(carsValidator) })
   const submit = async (car) => {
     const { data } = await carsService.create(car)
     setCars(car => [...car, data])
@@ -13,7 +13,7 @@ const CarForm = ({ setCars, carForUpdate, setCarsForUpdate }) => {
   }
   const submitUpdate = async (car) => {
 
-    const { data } = await carsService.updateById(carForUpdate.id, car)
+    await carsService.updateById(carForUpdate.id, car)
 
     setCars(cars => {
       const index = cars.findIndex(value => value.id === carForUpdate.id)
@@ -25,8 +25,6 @@ const CarForm = ({ setCars, carForUpdate, setCarsForUpdate }) => {
     })
 
     setCarsForUpdate({});
-
-    // setCars(cars);
      reset()
   }
 
