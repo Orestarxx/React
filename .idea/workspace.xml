@@ -4,8 +4,6 @@
     <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="comit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UserForm/UserForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserForm/UserForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/configs/urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/configs/urls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/services/axious.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/axious.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,8 @@
       <updated>1663098120764</updated>
       <workItem from="1663098123541" duration="11155000" />
       <workItem from="1663147257068" duration="14434000" />
-      <workItem from="1663724243574" duration="2547000" />
+      <workItem from="1663724243574" duration="2756000" />
+      <workItem from="1663755367153" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="comit">
       <created>1663160537157</created>
@@ -82,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663718826342</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="comit">
+      <created>1663727335107</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663727335107</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

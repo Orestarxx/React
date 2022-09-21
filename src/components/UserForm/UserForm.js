@@ -4,7 +4,7 @@ import {usersValidator} from "../user.posts.validator/validators";
 import {usersService} from "../services/users.posts.service";
 
 const UsersForm = ({setUsers}) =>{
-const {setValue,register,handleSubmit,reset,formState:{errors,isValid}} = useForm({resolver:joiResolver(usersValidator)})
+const {register,handleSubmit,reset,} = useForm({resolver:joiResolver(usersValidator)})
     const submit = async (user) =>{
     const {data} = await usersService.create(user)
        setUsers(users =>[...users,data])
