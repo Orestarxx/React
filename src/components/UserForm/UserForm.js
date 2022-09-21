@@ -8,6 +8,7 @@ const {setValue,register,handleSubmit,reset,formState:{errors,isValid}} = useFor
     const submit = async (user) =>{
     const {data} = await usersService.create(user)
        setUsers(users =>[...users,data])
+        console.log(data)
 
 
     }
