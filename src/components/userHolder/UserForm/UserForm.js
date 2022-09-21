@@ -1,7 +1,7 @@
 import {useForm} from "react-hook-form";
 import {joiResolver} from '@hookform/resolvers/joi'
-import {usersValidator} from "../user.posts.validator/validators";
-import {usersService} from "../services/users.posts.service";
+import {usersValidator} from "../../user.comments.validator/validators";
+import {usersService} from "../../services/users.posts.service";
 
 const UsersForm = ({setUsers}) =>{
 const {register,handleSubmit,reset,} = useForm({resolver:joiResolver(usersValidator)})
@@ -9,6 +9,7 @@ const {register,handleSubmit,reset,} = useForm({resolver:joiResolver(usersValida
     const {data} = await usersService.create(user)
        setUsers(users =>[...users,data])
         console.log(data)
+        reset()
 
 
     }

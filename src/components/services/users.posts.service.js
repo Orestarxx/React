@@ -8,10 +8,10 @@ const usersService = {
     deleteById:(id) => axiousService.delete(`${urls.users}/${id}`)
 
 }
-const postsService = {
-    getAll:() => axiousService.get(urls.posts),
-    create:(post) => axiousService.post(urls.posts.post),
-    deleteById:(id) => axiousService.delete(`${urls.posts}/${id}`)
+const commentsService = {
+    getAll:() => axiousService.get(urls.comments),
+    create:(comment) => axiousService.post(urls.comments,comment),
+    deleteById:(id) => axiousService.delete(`${urls.comments}/${id}`)
 
 }
-export {usersService,postsService}
+export {usersService,commentsService}

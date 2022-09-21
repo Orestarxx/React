@@ -1,4 +1,5 @@
-import {Users} from "./components/Users/Users";
+import {Users} from "./components/userHolder/Users/Users";
+import {Comments} from "./components/commentsHolder/comments/Comments";
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (<div>
 
      <Users/>
+          <Comments/>
 
       </div>
 

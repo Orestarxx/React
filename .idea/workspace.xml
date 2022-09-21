@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="comit">
+      <change afterPath="$PROJECT_DIR$/src/components/commentsHolder/comment/Comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commentsHolder/comment/comment.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commentsHolder/comments/Comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/commentsHolder/commentsForm/CommentsForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserForm/UserForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserForm/UserForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/User/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/userHolder/User/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/User/user.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/userHolder/User/user.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserForm/UserForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/userHolder/UserForm/UserForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/userHolder/Users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/configs/urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/configs/urls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/users.posts.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/users.posts.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user.posts.validator/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user.comments.validator/validators.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -51,6 +62,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\react_working\src\components\commentsHolder\comment" />
+      <recent name="C:\Users\Admin\IdeaProjects\react_working\src\components\commentsHolder\commentsForm" />
+      <recent name="C:\Users\Admin\IdeaProjects\react_working\src\components\commentsHolder" />
+      <recent name="C:\Users\Admin\IdeaProjects\react_working\src\components\userHolder" />
       <recent name="C:\Users\Admin\IdeaProjects\react_working\src\components\familySimpsons" />
     </key>
   </component>
