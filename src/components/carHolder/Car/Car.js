@@ -1,6 +1,6 @@
 import {carsService} from "../../services/users.posts.cars.service";
 
-const  Car = ({car,setCars}) =>{
+const  Car = ({car,setCars, carUpdate}) =>{
 const {id,model,price,year} = car
     const deleteCar = async () =>{
 await carsService.deleteById(id);
@@ -19,7 +19,7 @@ setCars(cars =>{
         <div><b>Year:</b>{year}</div>
         </div>
         <div>
-            <button >Update</button>
+            <button onClick={() =>carUpdate(id)}>Update</button>
             <button onClick={() =>deleteCar()}>Delete</button>
         </div>
     </div>)
