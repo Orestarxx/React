@@ -1,6 +1,7 @@
 import axios from "axios";
-import {baseURL} from "../configs/urls";
+import {baseURL, carBaseURL} from "../configs/urls";
 
 let axiousService = axios.create({baseURL})
- export{axiousService}
+let carAxiousService = axios.create({baseURL:carBaseURL})
+ export{axiousService,carAxiousService}
 

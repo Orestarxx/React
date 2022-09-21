@@ -12,4 +12,9 @@ const commentsValidator =Joi.object({
     email:Joi.string().email({ minDomainSegments: 2, tlds: { allow: ['com', 'net'] } }),
     body:Joi.string().regex(/^[a-zA-Zа-яА-яА-Яа-яэЭїЇҐґЄєГг ]{1,1000}$/).required(),
 })
-export {usersValidator,commentsValidator}
+const carsValidator =Joi.object({
+    model:Joi.string().regex(/^[a-zA-Zа-яА-яА-Яа-яэЭїЇҐґЄєГг ]{1,20}$/).required(),
+    price:Joi.number().min(1).max(100000000).required(),
+    year:Joi.number().min(1970).max(new Date().getFullYear()).required()
+})
+export {usersValidator,commentsValidator,carsValidator}

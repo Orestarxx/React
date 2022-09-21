@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import {commentsService} from "../../services/users.posts.service";
+import {commentsService} from "../../services/users.posts.cars.service";
 import {Comment} from "../comment/Comment";
 import {CommentsForm} from "../commentsForm/CommentsForm";
 

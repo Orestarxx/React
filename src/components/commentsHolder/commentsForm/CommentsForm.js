@@ -1,7 +1,7 @@
 import {useForm} from "react-hook-form";
 import {joiResolver} from "@hookform/resolvers/joi";
-import {commentsValidator} from "../../user.comments.validator/validators";
-import {commentsService} from "../../services/users.posts.service";
+import {commentsValidator} from "../../user.comments.cars.validator/validators";
+import {commentsService} from "../../services/users.posts.cars.service";
 
 const CommentsForm = ({setComments}) =>{
 const {register,handleSubmit,reset} = useForm({resolver:joiResolver(commentsValidator)})

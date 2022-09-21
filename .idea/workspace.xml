@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="comit">
+      <change afterPath="$PROJECT_DIR$/src/components/carHolder/Car/Car.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/carHolder/Cars/Cars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/carHolder/carForm/CarForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/commentsHolder/comments/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commentsHolder/comments/Comments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/commentsHolder/commentsForm/CommentsForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commentsHolder/commentsForm/CommentsForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/configs/urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/configs/urls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/axious.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/axious.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/services/users.posts.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/services/users.posts.cars.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user.comments.validator/validators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user.comments.cars.validator/validators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/userHolder/UserForm/UserForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/userHolder/UserForm/UserForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/userHolder/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/userHolder/Users/Users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -99,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663765904209</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="comit">
+      <created>1663768903575</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663768903575</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
