@@ -1,0 +1,20 @@
+.inputsForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+
+}
+.saveButton{
+
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+}

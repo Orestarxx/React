@@ -1,0 +1,19 @@
+.infoHolder{
+    border: 2px solid;
+    margin: 10px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonsUpdateDeleteHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 10px;
+}
+.buttonsUpdateDelete{
+    width: 70px;
+    height: 30px;
+    margin: 2px;
+}
