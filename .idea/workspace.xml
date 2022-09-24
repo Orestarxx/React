@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="comit">
-      <change afterPath="$PROJECT_DIR$/src/components/CarHolder/Car/Car.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CarHolder/CarsBuild/CarsBuild.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/urls/urls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CarHolder/Car/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarHolder/Car/Car.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CarHolder/CarsBuild/CarsBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CarHolder/CarsBuild/CarsBuild.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
