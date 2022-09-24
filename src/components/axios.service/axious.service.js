@@ -1,10 +1,25 @@
 import axios from "axios";
 
-let todos = axios.create({
+let baseTodos = axios.create({
     baseURL:'https://jsonplaceholder.typicode.com/todos'
+});
+let baseAlbums = axios.create({
+    baseURL:'https://jsonplaceholder.typicode.com/albums'
 })
-
-const getTodos = () => {
-    return todos()
+let baseComments = axios.create({
+    baseURL:'https://jsonplaceholder.typicode.com'
+})
+const getAxiousComments = () =>{
+    return baseComments('/comments')
 }
-export {getTodos};
+const getAxiosPosts = (id) =>{
+    return baseComments('/posts/'+id)
+}
+
+const getAxiosTodos = () => {
+    return baseTodos()
+}
+const getAxiousAlbums = () =>{
+    return baseAlbums()
+}
+export {getAxiosTodos, getAxiousAlbums,getAxiousComments,getAxiosPosts};
