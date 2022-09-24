@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="comit">
-      <change beforePath="$PROJECT_DIR$/src/components/data/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/familyGuy/familyGuy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/familyGuy/familyGuyBuild.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/familyGuy/familyGuyStyle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/familySimpsons/familySimpsons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/familySimpsons/simpsonsBuild.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fetches/buildFetch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fetches/fetch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/fetches/styleRick.css" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CarHolder/Car/Car.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CarHolder/CarsBuild/CarsBuild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -42,20 +37,20 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\IdeaProjects\react_working\src\components\familySimpsons" />
