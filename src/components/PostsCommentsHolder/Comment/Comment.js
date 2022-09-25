@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import {getAxiousComments} from "../../axios.service/axious.service";
-import {PostsBuild} from "../PostsBuild/PostsBuild";
+import {CommentsBuild} from "../CommentsBuild/CommentsBuild";
 import {Outlet} from "react-router-dom";
 
-const Post = () => {
+const Comment = () => {
         let [comments,setComments] = useState([])
     useEffect(() =>{
         getAxiousComments().then(value => setComments(value.data))
@@ -11,9 +11,9 @@ const Post = () => {
     return (
         <div>
             <Outlet/>
-            <div>{comments.map((comment,index) =><PostsBuild comment={comment} key={index}/>)}</div>
+            <div>{comments.map((comment,index) =><CommentsBuild comment={comment} key={index}/>)}</div>
         </div>
     );
 };
 
-export {Post};
+export {Comment};

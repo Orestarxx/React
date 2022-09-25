@@ -13,7 +13,7 @@ const PostDetailsBuild = () => {
     return (
         <div>
             {/*<div>{posts.map(post =>post.body)}</div>*/}
-            <div>{post.body}</div>
+            <div> <b>Body:</b>{post.body}</div>
         </div>
     );
 };
