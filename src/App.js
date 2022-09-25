@@ -18,7 +18,7 @@ function App() {
           <div><Link to={'/todos'}><b>Todos appearing</b></Link></div>
           <div><Link to={'/albums'}><b>Albums appearing</b></Link></div>
             <div><Link to={'/comments'}> <b>Comments appearing</b></Link></div>
-          <div></div>
+
         </div>
         <Routes>
           <Route path={'todos'} element={ <Todo/>}/>

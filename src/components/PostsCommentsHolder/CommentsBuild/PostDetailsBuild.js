@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useLocation} from "react-router-dom";
+
 import {getAxiosPosts} from "../../axios.service/axious.service";
 
 const PostDetailsBuild = () => {
@@ -12,7 +13,7 @@ const PostDetailsBuild = () => {
    },[])
     return (
         <div>
-            {/*<div>{posts.map(post =>post.body)}</div>*/}
+
             <div> <b>Body:</b>{post.body}</div>
         </div>
     );
