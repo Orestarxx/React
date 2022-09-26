@@ -4,17 +4,17 @@ import {useLocation} from "react-router-dom";
 import {getAxiosPosts} from "../../axios.service/axious.service";
 
 const PostDetailsBuild = () => {
-   const location = useLocation()
-    const [post,setPosts] = useState([])
+    const location = useLocation()
+    const [post, setPosts] = useState([])
     console.log(location);
-   const {postId} = location.state;
-   useEffect(() =>{
-       getAxiosPosts(postId).then(value =>setPosts(value.data) )
-   },[])
+    const {postId} = location.state;
+    useEffect(() => {
+        getAxiosPosts(postId).then(value => setPosts(value.data))
+    }, [])
     return (
         <div>
 
-            <div> <b>Body:</b>{post.body}</div>
+            <div><b>Body:</b>{post.body}</div>
         </div>
     );
 };
