@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="gg)">
-      <change afterPath="$PROJECT_DIR$/src/components/Posts/comments/comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Posts/PostsBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Posts/PostsBuild.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/routePage/routepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routePage/routepage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/comments.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/comments.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comit" />
-    <option name="LAST_COMMIT_MESSAGE" value="comit" />
+    <MESSAGE value="big" />
+    <option name="LAST_COMMIT_MESSAGE" value="big" />
   </component>
 </project>

@@ -28,7 +28,7 @@ const Routepage = () => {
                     <Route path={'familyGuy'} element={<FamilyGuy/>}/>
                     <Route path={'todos'} element={<Todods/>}/>
                     <Route path={'posts'} element={<Posts/>}/>
-                    <Route path={'posts:id'} element={<Comments/>}/>
+                    <Route path={'comments/:id'} element={<Comments/>}/>
                     <Route path={'albums'} element={<Albums/>}/>
                 </Routes>
             </div>
