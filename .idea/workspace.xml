@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="comit">
+    <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="gg)">
+      <change afterPath="$PROJECT_DIR$/src/components/Albums/AlbumsBuild.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FamiliGuy/FamilyGuy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FamiliGuy/FamilyGuyBuild.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Posts/Posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Posts/PostsBuild.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Simpsons/Simpsons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Simpsons/SimpsonsBuild.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Todods/Todods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Todods/TododsBuild.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/routePage/routepage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/routePage/styleRoute.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/configs/urls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/albums.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/axious.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/comments.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/posts.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/todos.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/axios.service/axious.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Albums/Albums.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
