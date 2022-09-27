@@ -5,9 +5,10 @@ import {CommentsBuild} from "./CommentsBuild";
 
 const Comments = () => {
     let [comments,setComment] = useState([])
-
+  const location = useLocation()
+    const {post} = location;
     useEffect(() =>{
-        commentsService.getAll().then(({data}) => setComment(data))
+        commentsService.getBy().then(({data}) => setComment(data))
     },[])
     console.log(comments);
     return (
