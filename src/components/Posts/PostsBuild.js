@@ -9,7 +9,7 @@ const PostsBuild = ({post}) => {
             <div><b>Id:</b>{id}</div>
             <div><b>Body:</b>{body}</div>
             <div><b>Title:</b>{title}</div>
-            <Link to={'/comments/'+userId}> <b>Get comments</b></Link>
+            <Link to={id}> <b>Get comments</b></Link>
         </div>
     );
 };

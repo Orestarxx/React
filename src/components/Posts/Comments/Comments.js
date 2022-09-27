@@ -1,10 +1,11 @@
 import React, {useEffect, useState} from 'react';
-import {useParams} from "react-router-dom";
+import {useLocation, useParams} from "react-router-dom";
 import {commentsService} from "../../../service/comments.servise";
 import {CommentsBuild} from "./CommentsBuild";
 
 const Comments = () => {
     let [comments,setComment] = useState([])
+
     useEffect(() =>{
         commentsService.getAll().then(({data}) => setComment(data))
     },[])

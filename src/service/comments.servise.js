@@ -2,6 +2,6 @@ import {axiosService} from "./axious.service";
 import {urls} from "../configs/urls";
 
 const commentsService = {
-    getAll:(id) => axiosService.get(urls.comments+id)
+    getAll:() => axiosService.get(urls.comments)
 }
 export {commentsService};
