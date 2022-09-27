@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useLocation, useParams} from "react-router-dom";
-import {commentsService} from "../../../service/comments.service";
+import {commentsService, getAxiousComments} from "../../../service/comments.service";
 import {CommentsBuild} from "./commentsBuild";
 
 const Comments = (userId) => {
@@ -16,7 +16,7 @@ const Comments = (userId) => {
 
 
  useEffect(() =>{
- commentsService.getAll(userId).then(({data}) =>setComments(data))
+ getAxiousComments().then(({data}) =>setComments(data))
 
  },[userId])
     return (

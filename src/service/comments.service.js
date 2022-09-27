@@ -11,6 +11,7 @@ import axios from "axios";
 let baseComments = axios.create({
     baseURL:'https://jsonplaceholder.typicode.com'
 })
-const getAxiousComments = () =>{
+const getAxiousComments = (id) =>{
     return baseComments('/comments'+ id)
 }
+export {getAxiousComments}
