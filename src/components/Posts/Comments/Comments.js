@@ -6,11 +6,11 @@ import {CommentsBuild} from "./CommentsBuild";
 const Comments = () => {
     let [comments,setComment] = useState([])
   const location = useLocation()
-    const {post} = location;
+    const {id} = location.state;
+    console.log(id);
     useEffect(() =>{
-        commentsService.getBy().then(({data}) => setComment(data))
+        commentsService.getByPostId(id).then(({data}) => setComment(data))
     },[])
-    console.log(comments);
     return (
         <div>
 
