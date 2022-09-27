@@ -7,6 +7,7 @@ import {FamilyGuy} from "../FamiliGuy/FamilyGuy";
 import {Todods} from "../Todods/Todods";
 import {Posts} from "../Posts/Posts";
 import {Albums} from "../Albums/Albums";
+import {Comments} from "../Posts/Comments/Comments";
 
 
 const Routepage = () => {
@@ -28,6 +29,7 @@ const Routepage = () => {
                     <Route path={'familyGuy'} element={<FamilyGuy/>}/>
                     <Route path={'todos'} element={<Todods/>}/>
                     <Route path={'posts'} element={<Posts/>}/>
+                    <Route path={'posts/:id'} element={<Comments/>}/>
                     <Route path={'albums'} element={<Albums/>}/>
                 </Routes>
             </div>

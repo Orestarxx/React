@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {postsService} from "../../service/posts.service";
 import {PostsBuild} from "./PostsBuild";
 
+
 const Posts = () => {
  const [posts,setPosts] = useState([])
     useEffect(() =>{
@@ -9,6 +10,7 @@ const Posts = () => {
     },[])
     return (
         <div>
+
            <div>{posts.map(post =><PostsBuild post={post} key={post.id}/>)}</div>
         </div>
     );
