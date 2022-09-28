@@ -10,10 +10,10 @@ const Routepage = () => {
             <div className={css.holderKeyBoard}>
             <div className={css.keyBoard}>
                 <div><Link to={'/simpsons'}>Simpsons</Link></div>
-                <div><Link to={'/familyGuy'}>Family Guy</Link></div>
-                <div><Link to={'/todos'}> Todos</Link></div>
-                <div><Link to={'/posts'}>Posts</Link></div>
-                <div><Link to={'/albums'}>Albums</Link></div>
+                <div ><Link to={'/familyGuy'}>Family Guy</Link></div>
+                <div ><Link to={'/todos'}> Todos</Link></div>
+                <div ><Link to={'/posts'}>Posts</Link></div>
+                <div ><Link to={'/albums'}>Albums</Link></div>
             </div>
 
             </div>
