@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="big">
+      <change afterPath="$PROJECT_DIR$/src/components/Simpsons/simpsonsStyle.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Posts/Comments/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Posts/Comments/Comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routePage/routepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routePage/routepage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/comments.servise.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/comments.servise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Simpsons/Simpsons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Simpsons/Simpsons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Simpsons/SimpsonsBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Simpsons/SimpsonsBuild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/routePage/styleRoute.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routePage/styleRoute.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -73,6 +74,8 @@
       <workItem from="1664207027836" duration="17000" />
       <workItem from="1664242424707" duration="17000" />
       <workItem from="1664294426103" duration="1940000" />
+      <workItem from="1664304903036" duration="596000" />
+      <workItem from="1664310281625" duration="3147000" />
     </task>
     <task id="LOCAL-00001" summary="comit">
       <created>1663160537157</created>
@@ -109,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664154592740</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="big">
+      <created>1664299631904</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664299631904</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
