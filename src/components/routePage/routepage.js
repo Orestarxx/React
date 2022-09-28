@@ -2,13 +2,7 @@ import React from 'react';
 import {Link, Route, Routes} from "react-router-dom";
 
 import css from './styleRoute.module.css'
-import {Simpsons} from "../Simpsons/Simpsons";
-import {FamilyGuy} from "../FamiliGuy/FamilyGuy";
-import {Todods} from "../Todods/Todods";
-import {Posts} from "../Posts/Posts";
-import {Albums} from "../Albums/Albums";
-import {Comments} from "../Posts/Comments/Comments";
-
+import {Simpsons,FamilyGuy,Todods,Posts,Albums,Comments} from '../index'
 
 const Routepage = () => {
     return (

@@ -2,11 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="big">
-      <change afterPath="$PROJECT_DIR$/src/components/Simpsons/simpsonsStyle.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Albums/albumsStyle.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FamiliGuy/familyGuyStyle.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Posts/Comments/commentsStyle.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Posts/postsStyle.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Todods/todosStyle.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Albums/Albums.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Albums/Albums.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Albums/AlbumsBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Albums/AlbumsBuild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FamiliGuy/FamilyGuy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FamiliGuy/FamilyGuy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FamiliGuy/FamilyGuyBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FamiliGuy/FamilyGuyBuild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Posts/Comments/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Posts/Comments/Comments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Posts/Comments/CommentsBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Posts/Comments/CommentsBuild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Posts/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Posts/PostsBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Posts/PostsBuild.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Simpsons/Simpsons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Simpsons/Simpsons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Simpsons/SimpsonsBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Simpsons/SimpsonsBuild.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/routePage/styleRoute.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routePage/styleRoute.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Simpsons/simpsonsStyle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Simpsons/simpsonsStyle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Todods/Todods.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Todods/Todods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Todods/TododsBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Todods/TododsBuild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/routePage/routepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/routePage/routepage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configs/urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/configs/urls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +94,8 @@
       <workItem from="1664242424707" duration="17000" />
       <workItem from="1664294426103" duration="1940000" />
       <workItem from="1664304903036" duration="596000" />
-      <workItem from="1664310281625" duration="3147000" />
+      <workItem from="1664310281625" duration="3157000" />
+      <workItem from="1664379324200" duration="4331000" />
     </task>
     <task id="LOCAL-00001" summary="comit">
       <created>1663160537157</created>
@@ -119,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664299631904</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="big">
+      <created>1664324158192</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664324158193</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

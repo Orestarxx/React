@@ -1,12 +1,17 @@
 import React from 'react';
+import css from './familyGuyStyle.module.css'
+
 
 const FamilyGuyBuild = ({grifin}) => {
-    const {nameFiLa,gender,image} = grifin;
+    const {nameFiLa, gender, image} = grifin;
     return (
-        <div>
+        <div className={css.familyGuyHolder}>
             <div>{nameFiLa}</div>
             <div>{gender}</div>
-            <img src={image} alt=""/>
+            <div className={css.pictureHolder}>
+                <img src={image} alt=""/>
+            </div>
+
         </div>
     );
 };
