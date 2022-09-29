@@ -23,6 +23,7 @@ body {
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
     background: #141e30;
+    overflow: hidden;
 
 }
 
@@ -58,6 +59,7 @@ body {
     pointer-events: none;
     transition: .5s;
 }
+
 
 .loginBox .userBox input:focus ~ label,
 .loginBox .userBox input:valid ~ label {

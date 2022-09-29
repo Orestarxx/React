@@ -12,7 +12,7 @@ const User = () => {
     },[])
     return (
         <div className={css.mainHolder}>
-            <UserForm/>
+            <UserForm setUsers={setUsers}/>
            <div className={css.holder}>{users.map(user =><UserBuild user={user} key={user.id}/>)}</div>
         </div>
     );

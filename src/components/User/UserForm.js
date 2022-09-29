@@ -4,13 +4,17 @@ import {joiResolver} from '@hookform/resolvers/joi'
 
 import css from './userForm.module.css'
 import {userValidator} from "../validators/user.form.validator";
+import {userService} from "../../service/users.service";
 
-const UserForm = () => {
+const UserForm = ({setUsers}) => {
     const {register,handleSubmit,reset,formState:{errors,isValid},setValue} = useForm({
         resolver:joiResolver(userValidator)
     })
-    const submit = (user) =>{
-        console.log(user);
+    const submit = async (user) =>{
+       const{data}= await userService.create(user)
+        console.log(data);
+       setUsers(users =>[...users,data])
+        reset()
     }
     return (<div>
         <div className={css.loginBox}>

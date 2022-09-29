@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="practicing">
-      <change afterPath="$PROJECT_DIR$/src/components/User/userForm.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/validators/user.form.validator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/User/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/User/UserBuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/UserBuild.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/User/UserForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/UserForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/User/user.userForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/user.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/User/userForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/userForm.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/validators/user.form.validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/validators/user.form.validator.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,7 @@
       <updated>1663098120764</updated>
       <workItem from="1663098123541" duration="11155000" />
       <workItem from="1663147257068" duration="14434000" />
-      <workItem from="1664448230286" duration="9961000" />
+      <workItem from="1664448230286" duration="11908000" />
     </task>
     <task id="LOCAL-00001" summary="comit">
       <created>1663160537157</created>
@@ -94,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664407059493</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="practicing">
+      <created>1664458626589</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664458626589</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
