@@ -2,7 +2,8 @@ import React, {useEffect, useState} from 'react';
 
 import {userService} from "../../service/users.service";
 import {UserBuild} from "./UserBuild";
-import css from './user.userForm.module.css'
+import css from './user.module.css'
+import {UserForm} from "./UserForm";
 
 const User = () => {
     const [users,setUsers] = useState([])
@@ -11,6 +12,7 @@ const User = () => {
     },[])
     return (
         <div className={css.mainHolder}>
+            <UserForm/>
            <div className={css.holder}>{users.map(user =><UserBuild user={user} key={user.id}/>)}</div>
         </div>
     );

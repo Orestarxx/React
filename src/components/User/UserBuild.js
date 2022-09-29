@@ -1,20 +1,20 @@
 import React from 'react';
 
-import css from './user.userForm.module.css'
+import css from './user.module.css'
 
 const UserBuild = ({user}) => {
     const {id, name, username, email} = user;
     return (
             <div className={css.userHolder}>
                 <div className={css.users}>
-                    <div><b>id:</b>{id}</div>
-                    <div><b>name:</b>{name}</div>
-                    <div><b>username:</b>{username}</div>
-                    <div><b>email:</b>{email}</div>
+                    <div className={css.userInformation}><b>id:</b>{id}</div>
+                    <div className={css.userInformation}><b>name:</b>{name}</div>
+                    <div className={css.userInformation}><b>username:</b>{username}</div>
+                    <div className={css.userInformation}><b>email:</b>{email}</div>
                 </div>
                 <div className={css.buttonHolder}>
-                    <button> Update</button>
-                    <button>Delete</button>
+                    <button className={css.userButton}> Update</button>
+                    <button className={css.userButton}>Delete</button>
                 </div>
 
             </div>
