@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="practicing">
-      <change afterPath="$PROJECT_DIR$/src/Reducer/Actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reducer/PetReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reducer/index.js" afterDir="false" />
+    <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducer/PetReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/PetReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +70,8 @@
       <workItem from="1663147257068" duration="14434000" />
       <workItem from="1664554240502" duration="30000" />
       <workItem from="1664571501918" duration="8045000" />
-      <workItem from="1664627735059" duration="4035000" />
+      <workItem from="1664627735059" duration="4074000" />
+      <workItem from="1664651553587" duration="1621000" />
     </task>
     <task id="LOCAL-00001" summary="comit">
       <created>1663160537157</created>
@@ -89,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664580777206</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="done">
+      <created>1664631933672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664631933672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comit" />
     <MESSAGE value="practicing" />
-    <option name="LAST_COMMIT_MESSAGE" value="practicing" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
 </project>

@@ -4,38 +4,34 @@ import {useRef} from "react";
 import {actions, usePetReducer} from "./Reducer";
 
 
-
 function App() {
-    const cats=useRef()
-    const dogs=useRef()
+    const cats = useRef()
+    const dogs = useRef()
+    const [catState, catDispatch] = usePetReducer()
+    const [dogState, dogDispatch] = usePetReducer()
 
 
-    const [catState,catDispatch]=usePetReducer()
-    const [dogState,dogDispatch]=usePetReducer()
-
-    const addCat=()=>{
-        catDispatch({type:actions.ADD,payload: {name:cats.current.value}})
-
-    }
-
-    const addDog=()=>{
-        dogDispatch({type:actions.ADD,payload: {name:dogs.current.value}})
+    const addCat = () => {
+        catDispatch({type: actions.ADD, payload: {name: cats.current.value}})
 
     }
 
-    const deleteCat=(id)=>{
-        catDispatch({type: actions.DELETE,payload: {id}})
+    const addDog = () => {
+        dogDispatch({type: actions.ADD, payload: {name: dogs.current.value}})
+
     }
 
-    const deleteDog=(id)=>{
-        dogDispatch({type: actions.DELETE,payload: {id}})
+    const deleteCat = (id) => {
+        catDispatch({type: actions.DELETE, payload: {id}})
     }
 
-
+    const deleteDog = (id) => {
+        dogDispatch({type: actions.DELETE, payload: {id}})
+    }
 
 
     return (<div>
-            <div style={{height:'100px',display:'flex',justifyContent:'center'}}>
+            <div style={{height: '100px', display: 'flex', justifyContent: 'center'}}>
 
                 <label>
                     Add Cat: <input type="text" ref={cats}/>
@@ -47,18 +43,18 @@ function App() {
                 </label>
 
             </div>
-            <div style={{display:'flex', justifyContent:"space-evenly"}}>
+            <div style={{display: 'flex', justifyContent: "space-evenly"}}>
                 <div>
 
-                    {catState.map(cat=><div key={cat.id}>
+                    {catState.map(cat => <div key={cat.id}>
                         {cat.name}
-                        <button onClick={()=>deleteCat(cat.id)}>delete cat</button>
+                        <button onClick={() => deleteCat(cat.id)}>delete cat</button>
                     </div>)}
                 </div>
                 <div>
-                    {dogState.map(dog=><div key={dog.id}>
+                    {dogState.map(dog => <div key={dog.id}>
                         {dog.name}
-                        <button onClick={()=>deleteDog(dog.id)}>delete dog</button>
+                        <button onClick={() => deleteDog(dog.id)}>delete dog</button>
                     </div>)}
                 </div>
             </div>
@@ -67,10 +63,9 @@ function App() {
             </div>
 
 
-
         </div>
 
-  );
+    );
 }
 
 export default App;
