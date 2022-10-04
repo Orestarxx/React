@@ -1,8 +1,6 @@
-
-
 import "./App.css"
 import {Reducer} from "./Reducer/Reducer";
-
+import {ReducerTwo} from "./ReducerSecond/ReducerTwo";
 
 
 function App() {
@@ -10,8 +8,9 @@ function App() {
 
     return (<div>
 
-        <Reducer/>
+            <Reducer/>
             <hr/>
+            <ReducerTwo/>
 
         </div>
 

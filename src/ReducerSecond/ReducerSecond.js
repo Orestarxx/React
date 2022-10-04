@@ -1,32 +1,23 @@
 import React, {useReducer} from 'react';
 
-const red = (state,action) =>{
-    const {type,payload} = action;
+import {actions} from "./actions";
+
+const reducer = (state,{type,payload}) =>{
     switch (type){
-        case 'addCat':
+        case actions.ADDCAT:
             return{...state, cats:[...state.cats,{name:payload,id:Date.now()}]}
-        case 'deleteCat':
-            const indexCat = state.findIndex(cat => cat.id === action.payload.id)
-        if (indexCat !== -1){
-            indexCat.splice(index, 1)
-        }
-            return [...state]
+        case actions.DELETECAT:
+            return {...state, cats:state.cats.filter(cat => cat.id !== payload)}
+        case actions.ADDDOG:
+            return{...state, dogs:[...state.dogs,{name:payload,id:Date.now()}]}
+        case actions.DELETEDOG:
+            return {...state, dogs:state.dogs.filter(dog => dog.id !== payload)}
         default:
             console.log('')
             return state;
     }
 
 }
+const useAnimalReducer = () => useReducer(reducer,{cats:[],dogs:[]})
 
-
-const ReducerSecond = () => {
-
-   const [state,dispatch] = useReducer(reducer,{cats:[],dogs:[]})
-    return (
-        <div>
-
-        </div>
-    );
-};
-
-export {ReducerSecond};
+export {useAnimalReducer};
