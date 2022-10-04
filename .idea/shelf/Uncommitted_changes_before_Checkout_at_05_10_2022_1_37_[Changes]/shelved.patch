@@ -1,0 +1,16 @@
+Index: src/axios.service/axios.service.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import axios from \"axios\";\r\nimport {URL} from \"../configs/urls\";\r\n\r\naxios.create({URL});
+===================================================================
+diff --git a/src/axios.service/axios.service.js b/src/axios.service/axios.service.js
+--- a/src/axios.service/axios.service.js	
++++ b/src/axios.service/axios.service.js	
+@@ -1,4 +1,4 @@
+ import axios from "axios";
+ import {URL} from "../configs/urls";
+ 
+-axios.create({URL});
+\ No newline at end of file
++const usersAxiosService = axios.create({URL});
+\ No newline at end of file
