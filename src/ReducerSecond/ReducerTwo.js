@@ -1,7 +1,7 @@
 import React from 'react';
 import {useRef} from "react";
 
-import {actions2} from "../Reducer/actions2";
+import {actions2} from "../actions/actions2";
 import {useAnimalReducer} from "./reducerSecond";
 
 
