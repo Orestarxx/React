@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PostsReducer = () => {
+const Posts = () => {
     return (
         <div>
 
@@ -8,4 +8,4 @@ const PostsReducer = () => {
     );
 };
 
-export {PostsReducer};
+export {Posts};

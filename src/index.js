@@ -4,18 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Provider} from 'react-redux'
-import {createStore} from "redux";
+import {combineReducers,createStore} from "redux";
+import {usersReducer} from "./reducer/usersReducer/usersReducer";
 
 
+// const store =  createStore((state ={users:[]},action) =>{
+//     console.log(state, action);
+//     return state;
+// })
 
-const store =  createStore((state ={users:[]},action) =>{
-    console.log(state, action);
-    return state;
-})
+const reducer = combineReducers({
+    usersReducer
+});
 
-
-
-
+let store = createStore(reducer);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 
-const UsersReducer = () => {
+const Users = () => {
 
    let usersState = useSelector( state => state);
     console.log(usersState);
@@ -16,4 +16,4 @@ const UsersReducer = () => {
     );
 };
 
-export {UsersReducer};
+export {Users};
