@@ -1,4 +1,6 @@
 import axios from "axios";
 import {URL} from "../configs/urls";
 
-axios.create({URL});
+const usersAxousService= axios.create({URL});
+
+
