@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/src/ReducerSecond/ReducerTwo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ReducerSecond/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReducerSecond/ReducerSecond.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReducerSecond/ReducerSecond.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducer/Actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducer/PetReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/petReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducer/Reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/Reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReducerSecond/ReducerSecond.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReducerSecond/reducerSecond.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReducerSecond/ReducerTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReducerSecond/ReducerTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReducerSecond/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/actions2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +77,7 @@
       <workItem from="1664627735059" duration="4074000" />
       <workItem from="1664651553587" duration="1621000" />
       <workItem from="1664830111726" duration="6397000" />
-      <workItem from="1664874746625" duration="5530000" />
+      <workItem from="1664874746625" duration="6241000" />
     </task>
     <task id="LOCAL-00001" summary="comit">
       <created>1663160537157</created>
@@ -105,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664842155071</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="done">
+      <created>1664880332531</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664880332531</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

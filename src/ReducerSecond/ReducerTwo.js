@@ -1,8 +1,8 @@
 import React from 'react';
 import {useRef} from "react";
 
-import {actions} from "./actions";
-import {useAnimalReducer} from "./ReducerSecond";
+import {actions2} from "../Reducer/actions2";
+import {useAnimalReducer} from "./reducerSecond";
 
 
 const ReducerTwo = () => {
@@ -17,13 +17,13 @@ const ReducerTwo = () => {
                 <div>
                     <label>Cats: <input type="text" ref={catCreator}/></label>
                     <button
-                        onClick={() => catDispatch({type: actions.ADDCAT, payload: catCreator.current.value})}>Save
+                        onClick={() => catDispatch({type: actions2.ADDCAT, payload: catCreator.current.value})}>Save
                     </button>
                 </div>
                 <div>
                     <label>Dogs: <input type="text" ref={dogCreator}/></label>
                     <button
-                        onClick={() => dogDispatch({type: actions.ADDDOG, payload: dogCreator.current.value})}>Save
+                        onClick={() => dogDispatch({type: actions2.ADDDOG, payload: dogCreator.current.value})}>Save
                     </button>
                 </div>
             </div>
@@ -35,7 +35,7 @@ const ReducerTwo = () => {
                     justifyContent: "center",
                     flexDirection: "column"
                 }}>{catState.cats.map(cat => (<div key={cat.id}>{cat.name}
-                    <button onClick={() => catDispatch({type: actions.DELETECAT, payload: cat.id})}>Delete</button>
+                    <button onClick={() => catDispatch({type: actions2.DELETECAT, payload: cat.id})}>Delete</button>
                 </div>))}</div>
                 <div
                     style={{
@@ -45,7 +45,7 @@ const ReducerTwo = () => {
                         justifyContent: "center",
                         flexDirection: "column"
                     }}>{dogState.dogs.map(dog => (<div key={dog.id}>{dog.name}
-                    <button onClick={() => dogDispatch({type: actions.DELETEDOG, payload: dog.id})}>Delete</button>
+                    <button onClick={() => dogDispatch({type: actions2.DELETEDOG, payload: dog.id})}>Delete</button>
                 </div>))}</div>
 
             </div>

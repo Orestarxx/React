@@ -1,16 +1,16 @@
 import React, {useReducer} from 'react';
 
-import {actions} from "./actions";
+import {actions2} from "../Reducer/actions2";
 
 const reducer = (state,{type,payload}) =>{
     switch (type){
-        case actions.ADDCAT:
+        case actions2.ADDCAT:
             return{...state, cats:[...state.cats,{name:payload,id:Date.now()}]}
-        case actions.DELETECAT:
+        case actions2.DELETECAT:
             return {...state, cats:state.cats.filter(cat => cat.id !== payload)}
-        case actions.ADDDOG:
+        case actions2.ADDDOG:
             return{...state, dogs:[...state.dogs,{name:payload,id:Date.now()}]}
-        case actions.DELETEDOG:
+        case actions2.DELETEDOG:
             return {...state, dogs:state.dogs.filter(dog => dog.id !== payload)}
         default:
             console.log('')

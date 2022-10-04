@@ -1,2 +1,2 @@
-export * from './Actions'
-export * from './PetReducer'
+export * from '../actions/actions'
+export * from './petReducer'

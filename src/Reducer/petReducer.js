@@ -1,6 +1,6 @@
 import {useReducer} from "react";
 
-import {actions} from "./Actions";
+import {actions} from "../actions/actions";
 
 const reducer = (state, action) => {
 

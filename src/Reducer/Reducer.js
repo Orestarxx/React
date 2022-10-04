@@ -1,8 +1,8 @@
 import React from 'react';
 import {useRef} from "react";
 
-import {usePetReducer} from "./PetReducer";
-import {actions} from "./Actions"
+import {usePetReducer} from "./petReducer";
+import {actions} from "../actions/actions"
 
 const Reducer = () => {
     const cats = useRef()
