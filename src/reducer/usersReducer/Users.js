@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from "react-redux";
 
 const Users = () => {
 
-   let usersState = useSelector( state => state);
+   let usersState = useSelector( state => state.usersReducer);
     console.log(usersState);
     const UsersDispatch = useDispatch()
     useEffect(() =>{
