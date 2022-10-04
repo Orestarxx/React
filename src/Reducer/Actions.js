@@ -1,6 +1,8 @@
+
+
 const actions={
-    ADD:'ADD',
-    DELETE:'DELETE'
+    DELETE:'DELETE',
+    ADD:'ADD'
 }
 
 export {actions}

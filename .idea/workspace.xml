@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/src/Reducer/Reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReducerSecond/ReducerSecond.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reducer/Actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/Actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Reducer/PetReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reducer/PetReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="practiceForHomeWork3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,6 +77,7 @@
       <workItem from="1664571501918" duration="8045000" />
       <workItem from="1664627735059" duration="4074000" />
       <workItem from="1664651553587" duration="1621000" />
+      <workItem from="1664830111726" duration="6209000" />
     </task>
     <task id="LOCAL-00001" summary="comit">
       <created>1663160537157</created>
