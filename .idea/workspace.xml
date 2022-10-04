@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="comit">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/axios.service/axios.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/axios.service/axios.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
