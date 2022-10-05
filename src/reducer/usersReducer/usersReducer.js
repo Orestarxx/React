@@ -4,14 +4,16 @@ import {userAction} from "../../actions";
 
     const usersReducer =  createStore((state ={users:[]},action) =>{
         console.log(state,action);
-        switch (action.type){
+        switch (action.payload){
             case userAction.ADDUSER:{
                 return {
                     ...state,
-                    users:payload
+                    users:action.payload
                 }
+
             }
-        }
+            default:
         return state;
+        }
     })
 export {usersReducer};

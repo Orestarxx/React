@@ -10,19 +10,19 @@ const Users = () => {
     console.log(usersState);
     const dispatch = useDispatch()
     useEffect(() =>{
-        fetch('https://jsonplaceholder.typicode.com/users')
-            .then(value => value.json())
-            .then(value =>{
-                dispatch({type:userAction.ADDUSER,payload:value})
-            })
-        // getUsers().then(value =>dispatch({type:userAction.ADDUSER,payload:value.data}))
+        // fetch('https://jsonplaceholder.typicode.com/users')
+        //     .then(value => value.json())
+        //     .then(value =>{
+        //         dispatch({type:userAction.ADDUSER,payload:value})
+        //     })
+        getUsers.getAll().then(value =>console.log(value.data))
 
     },[])
     return (
         <div>
 
         </div>
-    );
+    )
 };
 
 export {Users};

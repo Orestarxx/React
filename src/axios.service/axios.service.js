@@ -1,16 +1,16 @@
 import axios from "axios";
 import {URL, urls} from "../configs/urls";
 
-const usersAxousService= axios.create({URL});
+const usersAxiosService= axios.create({URL});
 
 const getUsers = () =>{
-    usersAxousService(urls.users);
+    usersAxiosService(urls.users);
 }
 const getPosts = () =>{
-    usersAxousService(urls.posts);
+    usersAxiosService(urls.posts);
 }
 const getComments = () =>{
-    usersAxousService(urls.comments);
+    usersAxiosService(urls.comments);
 }
 export {getPosts,getComments,getUsers};
 
