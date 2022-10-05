@@ -5,24 +5,36 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Provider} from 'react-redux'
 import {combineReducers,createStore} from "redux";
+import {userAction} from "./actions";
 
 import {usersReducer} from "./reducer/usersReducer/usersReducer";
 
 
-// const store =  createStore((state ={users:[]},action) =>{
+// const usersReducer =  createStore((state ={users:[]},action) =>{
 //     console.log(state, action);
-//     return state;
+//     switch (action.type){
+//             case userAction.ADDUSER:{
+//                 return {
+//                     ...state,
+//                     users:action.payload
+//                 }
+//
+//             }
+//             default:
+//         return state;
+//         }
+    // return state;
 // })
 
-const reducer = combineReducers({
-    usersReducer
-});
-
-let store = createStore(reducer);
+// const reducer = combineReducers({
+//     usersReducer
+// });
+//
+// let store = createStore(reducer);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Provider store={store}>
+  <Provider store={usersReducer}>
     <App />
   </Provider>
 );
