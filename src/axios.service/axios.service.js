@@ -4,7 +4,7 @@ import {baseURL, urls} from "../configs/urls";
 const usersAxiosService= axios.create({baseURL});
 
 const getUsers = () =>{
-     usersAxiosService(urls.users);
+    getAll:() => usersAxiosService.get(urls.users);
 }
 const getPosts = () =>{
     usersAxiosService(urls.posts);
