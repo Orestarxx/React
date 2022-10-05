@@ -8,9 +8,15 @@ const Users = () => {
 
    let usersState = useSelector( state => state.usersReducer);
     console.log(usersState);
-    const UsersDispatch = useDispatch()
+    const dispatch = useDispatch()
     useEffect(() =>{
-        getUsers().then(UsersDispatch({type:userAction.ADDUSER,payload:{}}))
+        fetch('https://jsonplaceholder.typicode.com/users')
+            .then(value => value.json())
+            .then(value =>{
+                dispatch({type:userAction.ADDUSER,payload:value})
+            })
+        // getUsers().then(value =>dispatch({type:userAction.ADDUSER,payload:value.data}))
+
     },[])
     return (
         <div>
