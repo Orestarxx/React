@@ -9,7 +9,7 @@ import {UsersBuild} from "./UsersBuild";
 const Users = () => {
 
    let {users} = useSelector( state => state.usersReducer);
-    console.log(users);
+    // console.log(users);
     const dispatch = useDispatch()
 
     useEffect(() =>{
