@@ -1,5 +1,6 @@
-const userAction ={
-    ADDUSER :'ADDUSER'
-}
 
-export {userAction};
+   const ADDUSER ='ADDUSER';
+   const GETUSER ='GETUSER';
+
+
+export {ADDUSER,GETUSER};

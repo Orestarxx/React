@@ -1,5 +1,5 @@
-const commentsAction ={
-    ADDCOMMENTS :'ADDCOMMENTS'
-}
 
-export {commentsAction};
+ const ADDCOMMENTS = 'ADDCOMMENTS';
+
+
+export {ADDCOMMENTS};

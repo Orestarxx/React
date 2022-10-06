@@ -1,5 +1,5 @@
-const postsAction ={
-    ADDPOSTS :'ADDPOSTS'
-}
 
-export {postsAction};
+   const ADDPOSTS = 'ADDPOSTS'
+
+
+export {ADDPOSTS};
