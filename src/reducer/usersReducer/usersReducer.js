@@ -6,12 +6,12 @@ import {ADDUSER,GETUSER} from "../../actions";
         console.log(state);
         const {type,payload} = action;
         switch (type){
-            case ADDUSER:{
+            case ADDUSER:
                 return {
                     ...state,users:payload
                 }
 
-            }
+            
             case GETUSER:
                const user = state.users.find(user =>user.id === payload)
                 return {...state,user};
