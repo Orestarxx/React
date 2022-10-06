@@ -10,7 +10,7 @@ import {CommentsBuild} from "./commentsBuild";
 const Comments = () => {
 
     let {comments} = useSelector( state => state.commentsReducer);
-    // console.log(users);
+    console.log(comments);
     const dispatch = useDispatch()
 
     useEffect(() =>{

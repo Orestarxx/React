@@ -2,13 +2,13 @@ import React from 'react';
 import {createStore} from "redux";
 import {ADDUSER,GETUSER} from "../../actions";
 
-    const usersReducer =  createStore((state ={users:[],user:null},{type,payload}) =>{
+    const usersReducer =  createStore((state ={users:[],user:null},action) =>{
         console.log(state);
+        const {type,payload} = action;
         switch (type){
             case ADDUSER:{
                 return {
-                    ...state,
-                    users:payload
+                    ...state,users:payload
                 }
 
             }

@@ -2,34 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26ed206-fc43-49f6-a06f-239984a7e1d5" name="Changes" comment="comit">
-      <change afterPath="$PROJECT_DIR$/src/componets/comments/Comments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componets/comments/commentsBuild.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componets/headers/Headers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componets/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componets/posts/Posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componets/posts/PostsBuild.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componets/users/Users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componets/users/UsersBuild.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layOuts/MainLayOut.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CommentsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PostsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/UserPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/UsersPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/combine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/commentsAction/commentsAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/commentsAction/commentsAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/postsAction/postsAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/postsAction/postsAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/usersAction/usersAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/usersAction/usersAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducer/commentsReducer/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/commentsReducer/CommentsReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducer/postsReducer/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/postsReducer/PostsReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducer/usersReducer/Users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componets/comments/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componets/comments/Comments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componets/users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componets/users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducer/commentsReducer/CommentsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/commentsReducer/CommentsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducer/postsReducer/PostsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/postsReducer/PostsReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducer/usersReducer/usersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer/usersReducer/usersReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +72,8 @@
       <workItem from="1663098123541" duration="11155000" />
       <workItem from="1663147257068" duration="14434000" />
       <workItem from="1664979689066" duration="1078000" />
-      <workItem from="1665010507477" duration="6052000" />
+      <workItem from="1665010507477" duration="6121000" />
+      <workItem from="1665021866305" duration="1353000" />
     </task>
     <task id="LOCAL-00001" summary="comit">
       <created>1663160537157</created>
@@ -124,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664986651751</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="comit">
+      <created>1665016650278</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665016650278</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
